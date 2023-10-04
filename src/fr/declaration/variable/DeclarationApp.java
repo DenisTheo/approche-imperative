@@ -13,5 +13,8 @@ public class DeclarationApp
 		boolean value_boolean = true;
 		char value_character = 'N';
 		String value_string = "Lorem Ipsum [...]";
+		
+		String randomString = "Voici le résultat d'un calcul: 1+5=6";
+		System.out.println(randomString);
 	}
 }
