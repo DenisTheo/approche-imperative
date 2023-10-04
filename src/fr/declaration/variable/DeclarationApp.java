@@ -14,7 +14,7 @@ public class DeclarationApp
 		char value_character = 'N';
 		String value_string = "Lorem Ipsum [...]";
 		
-		String randomString = "Voici le résultat d'un calcul: 1+5=6";
+		String randomString = "Voici le résultat d'un calcul:\n 1+5=6";
 		System.out.println(randomString);
 	}
 }
