@@ -6,18 +6,26 @@ public class AffichageInverse
 
 	public static void main(String[] args)
 	{
-		System.out.println("args = {");
+		int[] arrayCopy = new int[array.length];
+		
+		System.out.print("args = {");
 		for(int i=0; i<array.length; i++)
 		{
-			System.out.println(array[i] + ' ');
+			arrayCopy[i] = array[i];
+			System.out.print(array[i]);
+			
+			if(i < array.length-1)
+				System.out.print(' ');
 		}
-		System.out.println("};\n\n");
+		System.out.print("};\n\n");
 
-		System.out.println("ordre inverse:\n");
+		System.out.print("ordre inverse:\n");
 		for(int i=array.length-1; i>=0; i--)
 		{
-			System.out.println(array[i] + ' ');
-		}
-		System.out.println(".\n\n");
+			System.out.print(array[i]);
+			
+			if(i > 0)
+				System.out.print(' ');
+		}		
 	}
 }
