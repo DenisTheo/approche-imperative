@@ -7,11 +7,20 @@ public class SommeDeTableaux
 	
 	public static void main(String[] args)
 	{
-		int total = 0;
+		int[] array = new int[arrayA.length];
 		
 		for(int i=0; i<arrayA.length; i++) // Exercise assumes they're the same size
-			total += arrayA[i] + arrayB[i];
+			array[i] = arrayA[i] + arrayB[i];
 		
-		System.out.println("The sum of both arrays' content is " + total + ".\n");
+		// Display of the final array's content
+		System.out.print("The sum of both arrays:\narray = {");
+		for(int i=0; i<array.length; i++)
+		{
+			System.out.print(array[i]);
+			
+			if (i < array.length-1)
+				System.out.print(", ");
+		}
+		System.out.print("}.\n\n");
 	}
 }

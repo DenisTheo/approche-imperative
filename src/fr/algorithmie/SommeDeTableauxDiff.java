@@ -7,16 +7,23 @@ public class SommeDeTableauxDiff
 	
 	public static void main(String[] args)
 	{
-		int total = 0;
+		int[] array = new int[arrayA.length];
 		
-		// Checking arrayA's content
-		for(int i=0; i<arrayA.length; i++)
-			total += arrayA[i];
+		for(int i=0; i<arrayA.length; i++) // Exercise tells us arrayA is longer than arrayB
+			if (i < arrayB.length)
+				array[i] = arrayA[i] + arrayB[i];
+			else
+				array[i] = arrayA[i];
 		
-		// Adding arrayB's content
-		for(int i=0; i<arrayB.length; i++)
-			total += arrayB[i];
-		
-		System.out.println("The sum of both arrays' content is " + total + ".\n");
+		// Display of the final array's content
+		System.out.print("The sum of both arrays:\narray = {");
+		for(int i=0; i<array.length; i++)
+		{
+			System.out.print(array[i]);
+			
+			if (i < array.length-1)
+				System.out.print(", ");
+		}
+		System.out.print("}.\n\n");
 	}
 }
