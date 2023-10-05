@@ -12,5 +12,12 @@ public class AffichagePartiel
 			if (array[i] > 3)
 				System.out.print(" " + array[i]);
 		System.out.print("\n\n");
+
+		// Loop for array's content that's even.
+		System.out.print("Even Numbers:");
+		for(int i=0; i<array.length; i++)
+			if (array[i]%2 == 0)
+				System.out.print(" " + array[i]);
+		System.out.print("\n\n");
 	}
 }
