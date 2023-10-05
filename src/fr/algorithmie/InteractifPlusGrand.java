@@ -19,7 +19,7 @@ public class InteractifPlusGrand
 				System.out.println("Please enter a number between 1 and 10:\n(" + i + " already entered)");
 				try
 				{
-					nb[i] = scanner.nextInt() ;
+					nb[i] = scanner.nextInt();
 				}catch(Exception e)
 				{
 					scanner.nextLine();
