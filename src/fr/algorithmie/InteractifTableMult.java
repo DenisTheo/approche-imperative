@@ -6,7 +6,7 @@ public class InteractifTableMult
 {
 	public static void main(String[] args)
 	{
-		Scanner scanner = new Scanner(System.in) ;
+		Scanner scanner = new Scanner(System.in);
 		int nb = 0;
 		boolean valid;
 		

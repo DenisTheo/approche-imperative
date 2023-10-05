@@ -6,7 +6,7 @@ public class InteractifPlusGrand
 {
 	public static void main(String[] args)
 	{
-		Scanner scanner = new Scanner(System.in) ;
+		Scanner scanner = new Scanner(System.in);
 		int[] nb = new int[10]; // we fill an array instead
 		
 		for(int i=0; i<10; i++)// Asking 10 times
@@ -16,7 +16,7 @@ public class InteractifPlusGrand
 			do
 			{
 				valid= true;
-				System.out.println("Please enter a number between 1 and 10:\n(" + i + " already entered)");
+				System.out.println("Please enter a number:\n(" + i + " already entered)");
 				try
 				{
 					nb[i] = scanner.nextInt();
