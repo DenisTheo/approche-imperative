@@ -8,14 +8,14 @@ public class AffichageInverse
 	{
 		int[] arrayCopy = new int[array.length];
 		
-		System.out.print("args = {");
+		System.out.print("array = {");
 		for(int i=0; i<array.length; i++)
 		{
 			arrayCopy[i] = array[i];
 			System.out.print(array[i]);
 			
 			if(i < array.length-1)
-				System.out.print(' ');
+				System.out.print(', ');
 		}
 		System.out.print("};\n\n");
 
@@ -25,7 +25,7 @@ public class AffichageInverse
 			System.out.print(array[i]);
 			
 			if(i > 0)
-				System.out.print(' ');
+				System.out.print(', ');
 		}		
 	}
 }
