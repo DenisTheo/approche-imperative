@@ -11,27 +11,27 @@ public class AffichagePartiel
 		for(int i=0; i<array.length; i++)
 			if (array[i] > 3)
 				System.out.print(" " + array[i]);
-		System.out.print("\n\n");
+		System.out.print(".\n\n");
 
 		// Loop for array's content that's even.
 		System.out.print("Even Numbers:");
 		for(int i=0; i<array.length; i++)
 			if (array[i]%2 == 0)
 				System.out.print(" " + array[i]);
-		System.out.print("\n\n");
+		System.out.print(".\n\n");
 
 		// Loop for array's content with an even index.
 		System.out.print("Even Index Numbers:");
 		for(int i=0; i<array.length; i++) // Exercise asks to check and not do i+=2.
 			if (i%2 == 0)
 				System.out.print(" " + array[i]);
-		System.out.print("\n\n");
+		System.out.print(".\n\n");
 
 		// Loop for array's content that's odd.
 		System.out.print("Odd Numbers:");
 		for(int i=0; i<array.length; i++)
 			if (array[i]%2 == 1)
 				System.out.print(" " + array[i]);
-		System.out.print("\n\n");
+		System.out.print(".\n\n");
 	}
 }
