@@ -6,7 +6,7 @@ public class RechercheMax
 	
 	public static void main(String[] args)
 	{
-		// The default maximum is the first value or array, so we don't arbitrarily assign a value.
+		// The default maximum is the first value of array, so we don't arbitrarily assign a value.
 		int max = array[0];
 		
 		// Simple loop to check everything in array and compare it with the maximum found so far
