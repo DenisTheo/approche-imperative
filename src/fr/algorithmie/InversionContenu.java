@@ -15,7 +15,7 @@ public class InversionContenu
 		{
 			System.out.print(array[i]);
 			
-			if(i < temp)
+			if (i < temp)
 				System.out.print(", ");
 		}
 		System.out.print("}.\n\n");
@@ -32,7 +32,7 @@ public class InversionContenu
 		{
 			System.out.print(arrayCopy[i]);
 			
-			if(i < temp) // Cheating a bit there, using array's length-1 instead of arrayCopy's -1, but they should be the same anyway
+			if (i < temp) // Cheating a bit there, using array's length-1 instead of arrayCopy's -1, but they should be the same anyway
 				System.out.print(", ");
 		}
 		System.out.print("}.\n\n");

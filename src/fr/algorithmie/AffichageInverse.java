@@ -16,7 +16,7 @@ public class AffichageInverse
 			arrayCopy[i] = array[i]; // Also uses that loop to copy array's content into arrayCopy
 			System.out.print(array[i]);
 			
-			if(i < array.length-1)
+			if (i < array.length-1)
 				System.out.print(", ");
 		}
 		System.out.print("}.\n\n");
@@ -29,7 +29,7 @@ public class AffichageInverse
 		{
 			System.out.print(array[i]);
 			
-			if(i > 0)
+			if (i > 0)
 				System.out.print(", ");
 		}
 		System.out.print(".\n\n");
