@@ -19,5 +19,12 @@ public class AffichagePartiel
 			if (array[i]%2 == 0)
 				System.out.print(" " + array[i]);
 		System.out.print("\n\n");
+
+		// Loop for array's content with an even index.
+		System.out.print("Even Index Numbers:");
+		for(int i=0; i<array.length; i++) // Exercise asks to check and not do i+=2.
+			if (i%2 == 0)
+				System.out.print(" " + array[i]);
+		System.out.print("\n\n");
 	}
 }
